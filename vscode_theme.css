@@ -105,7 +105,7 @@ canvas {
 }
 
 .minimap canvas {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .minimap-slider {
@@ -115,6 +115,11 @@ canvas {
 
 .minimap.slider-mouseover {
     z-index: 1;
+}
+
+.monaco-editor .minimap.slider-mouseover .minimap-slider.active,
+.monaco-editor .minimap.slider-mouseover:hover .minimap-slider {
+  opacity: 0.5;
 }
 
 /* Sweet sunset dots */
